@@ -10,24 +10,6 @@ const Signup = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
-    // const userData = {
-    //         name: data.name,
-    //         email: data.email,
-    //         password: data.pw,
-    //   };
-    // try {
-        
-    //         // API.post("/users", userData)
-    //         //   .then((response) => {
-    //         //     if (response.status === 200) {
-    //         //       const authEmail = { email: userData.email };
-    //         //       console.log(authEmail);
-    //         //     }
-    //         //   })
-    //   alert('회원가입이 완료되었습니다. 다시 로그인 해 주세요');
-    // } catch (err) {
-    //   console.log(err);
-    // }
     console.log(data);
   };
 
